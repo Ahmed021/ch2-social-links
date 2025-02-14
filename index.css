@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap");
+
+/* General Styles */
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: Inter, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
+  width: 400px;
+  height: 70vh;
+  margin: 8% auto;
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.profile-img {
+  width: 160px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  margin-top: -10px;
+}
+
+.bio {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-wrap: wrap;
+}
+
+.btn {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 40px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 7px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  transform: translate(-3px);
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  color: hsl(0, 0%, 100%);
+  text-align: bottom;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    margin: 22% auto;
+    height: 72vh;
+  }
+}
