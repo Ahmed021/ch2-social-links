@@ -13,8 +13,8 @@ body {
   background-color: hsl(0, 0%, 12%);
   color: hsl(0, 0%, 100%);
   width: 400px;
-  height: 70vh;
-  margin: 8% auto;
+  height: 65vh;
+  margin: 4% auto;
   text-align: center;
   padding-top: 30px;
   border-radius: 20px;
@@ -62,7 +62,7 @@ h2 {
 
 @media screen and (max-width: 375px) {
   .card {
-    margin: 22% auto;
-    height: 72vh;
+    margin: 3% auto;
+    width: 300px;
   }
 }
